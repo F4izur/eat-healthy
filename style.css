@@ -1,0 +1,123 @@
+body{
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+span{
+    color: orange;
+}
+.btn-order{
+    text-decoration:none;
+    background-image: linear-gradient(90deg, rgba(255, 0, 0, 0.582),  #FBA24F);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+}
+section.intro{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 80px;
+}
+.half-width img{
+    width: 100%;
+}
+a{
+    margin-top: 1000px;
+}
+
+/* Section 2 styles */
+
+section#mid{
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-color: #f6d365;
+
+}
+#mid img{
+    width: 50%;
+    margin-left: 50%;
+}
+.about{
+    padding: 12%;
+}
+.btn-contact{
+    text-decoration:none;
+    background-image: linear-gradient(90deg, rgba(255, 0, 0, 0.582),  #FBA24F);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+}
+
+
+/* section 3 style */
+
+.recipies{
+    text-align: center;
+    padding: 0% 15%;
+}
+div.bottom{
+    display: flex;
+}
+.bottom img{
+    width: 100%;
+}
+#cover-1{
+    box-shadow: 0.1px 0.1px 10px lightskyblue;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-left: 20%;
+    padding: 1%;
+}
+#cover-2{
+    box-shadow: 0.1px 0.1px 10px lightskyblue;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 1%;
+}
+
+/* section 4 */
+
+#likes{
+    display: flex;
+    margin-left: 20%;
+    padding-top: 5%;
+}
+.follow{
+    padding: 0% 8%;
+}
+.follow h1{
+    font-weight: 900;
+    text-align: center;
+}
+.follow p{
+    font-size: x-small;
+}
+
+/* footer */
+
+footer{
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.877);
+    text-align: center;
+    color: white;
+    padding: 3% 0%;
+    padding-bottom: 5%;
+}
+#eat{
+    color: orange;
+    font-weight: 700;
+}
+#fresh{
+    color: green;
+    font-weight: 700;
+}
